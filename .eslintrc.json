@@ -1,8 +1,10 @@
 {
 	"root": true,
 	"extends": [
-		"@nodecraft"
+		"@nodecraft",
+		"plugin:@typescript-eslint/recommended"
 	],
+	"parser": "@typescript-eslint/parser",
 	"plugins": [
 		"unicorn",
 		"json",
