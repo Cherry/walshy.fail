@@ -1,0 +1,14 @@
+{
+	"root": true,
+	"extends": [
+		"@nodecraft"
+	],
+	"plugins": [
+		"unicorn",
+		"json",
+		"node"
+	],
+	"rules": {
+		"node/no-unsupported-features/es-syntax": "off"
+	}
+}

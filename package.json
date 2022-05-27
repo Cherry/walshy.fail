@@ -1,0 +1,37 @@
+{
+	"name": "walshy.fail",
+	"version": "1.0.0",
+	"private": true,
+	"description": "Walshy fails a lot, but we love him anyway.",
+	"keywords": [],
+	"homepage": "https://github.com/Cherry/walshy.fail#readme",
+	"bugs": {
+		"url": "https://github.com/Cherry/walshy.fail/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Cherry/walshy.fail.git"
+	},
+	"license": "MIT",
+	"author": "James Ross <james@jross.me> (https://jross.me)",
+	"scripts": {
+		"dev": "wrangler dev",
+		"lint": "npm run lint:js && npm run lint:json",
+		"lint:js": "eslint .",
+		"lint:js:fix": "eslint . --fix",
+		"lint:json": "eslint \"**/*.json\"",
+		"publish": "wrangler publish",
+		"test": "npm run lint"
+	},
+	"devDependencies": {
+		"@nodecraft/eslint-config": "18.0.0",
+		"eslint": "8.16.0",
+		"eslint-plugin-json": "3.1.0",
+		"eslint-plugin-node": "11.1.0",
+		"eslint-plugin-unicorn": "42.0.0",
+		"wrangler": "2.0.7"
+	},
+	"engines": {
+		"node": ">=16"
+	}
+}

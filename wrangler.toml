@@ -1,0 +1,11 @@
+name = "walshy-fail"
+account_id = "522ed7942a6ec29727e101623a48ea76"
+workers_dev = true
+compatibility_date = "2022-05-27"
+main = "./src/index.mjs"
+kv_namespaces = [
+	{binding = "WALSHYFAILS", id = "4564191fd2a34ab19f6edcf0e12b69d7", preview_id = "4564191fd2a34ab19f6edcf0e12b69d7"},
+]
+routes = [
+	{pattern = "walshy.fail/*", zone_id = "2325bcee31fb7b39c3f65f18fa6e6c48"}
+]
