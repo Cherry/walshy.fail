@@ -18,7 +18,7 @@ const indexHtml = (count: number): string => `<html>
 	<head>
 		<title>Walshy Fail Counter</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<meta name="description" content="Walshy fails a lot, and causes a lot of failures. Every hit will increase the fail counter.">
+		<meta name="description" content="Walshy fails a lot, and causes a lot of failures. Every hit will increase the fail counter. Current fails: ${count}">
 		<style>:root {color-scheme: dark light}</style>
 	</head>
 	<body>
